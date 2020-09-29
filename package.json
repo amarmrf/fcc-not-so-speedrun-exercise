@@ -5,8 +5,8 @@
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js",
-    "predeploy": "npm run build",
-    "deploy": "build"
+    "build": "npm run build",
+    "deploy": "gh-pages -d build"
 	},
 	"dependencies": {
 		"express": "^4.17.1",
