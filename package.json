@@ -8,12 +8,13 @@
 		"build": "webpack"
 	},
 	"dependencies": {
-		"express": "^4.17.1",
-		"mongoose": "^5.9.27",
-		"mongodb": "^3.5.9",
 		"body-parser": "^1.15.2",
 		"cors": "^2.8.1",
-		"shortid": "^2.2.6"
+		"express": "^4.17.1",
+		"mongodb": "^3.5.9",
+		"mongoose": "^5.9.27",
+		"shortid": "^2.2.6",
+		"webpack": "^4.44.2"
 	},
 	"engines": {
 		"node": "6.9.1"
