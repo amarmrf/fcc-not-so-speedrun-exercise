@@ -1,11 +1,11 @@
-{
+t{
 	"name": "fcc-exercise-tracker",
 	"version": "0.1.0",
 	"description": "A REST API project, part of Free Code Camp's curriculum",
 	"main": "server.js",
 	"scripts": {
-		"start": "node server.js",
-		"build": "webpack"
+	  "build": "netlify-lambda build express",
+    "start": "nodemon server-local.js"
 	},
 	"dependencies": {
 		"body-parser": "^1.15.2",
@@ -16,6 +16,13 @@
 		"shortid": "^2.2.6",
 		"webpack": "^4.44.2"
 	},
+   "devDependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "netlify-lambda": "^1.6.3",
+    "nodemon": "^1.19.2",
+    "serverless-http": "^2.3.0"
+  },
 	"engines": {
 		"node": "6.9.1"
 	},
