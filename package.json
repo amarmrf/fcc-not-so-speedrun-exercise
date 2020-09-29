@@ -6,7 +6,7 @@
 	"scripts": {
 		"start": "node server.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "build"
 	},
 	"dependencies": {
 		"express": "^4.17.1",
