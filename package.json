@@ -5,7 +5,7 @@
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js",
-    "build":"webpack"
+		"build": "webpack"
 	},
 	"dependencies": {
 		"express": "^4.17.1",
@@ -26,5 +26,8 @@
 		"node",
 		"gomix",
 		"express"
-	]
+	],
+	"devDependencies": {
+		"webpack-merge": "^5.1.4"
+	}
 }
